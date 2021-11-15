@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--bg-color: rgba(150, 150, 150, 1);
+
+	--cols: 10;
+	--rows: 20;
+
+	--message-popup-bg: rgba(245, 245, 245, 0.8);
+
+	--wrapper-border-color: #a0a0a0;
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	font-family: "Play", sans-serif;
+}

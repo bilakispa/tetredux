@@ -1,0 +1,15 @@
+.app-body {
+	display: flex;
+	justify-content: center;
+
+	.game-field {
+		position: relative;
+	}
+
+	.stats {
+		margin-left: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

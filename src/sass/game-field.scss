@@ -1,0 +1,12 @@
+.game-field {
+	border: 1px solid var(--wrapper-border-color);
+	border-radius: 3px;
+
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	grid-gap: 0;
+
+	flex: 0;
+	height: 20 * 25px + 2px;
+}

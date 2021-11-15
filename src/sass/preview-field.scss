@@ -1,0 +1,22 @@
+@use "variables";
+
+.preview-field {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 20px;
+
+	h1 {
+		font-family: "Press Start 2P", cursive;
+		font-size: 18px;
+		margin-bottom: 8px;
+	}
+
+	.preview {
+		border: 1px solid var(--wrapper-border-color);
+		border-radius: 3px;
+
+		display: grid;
+		grid-template-columns: repeat(4, variables.$blockSize);
+	}
+}

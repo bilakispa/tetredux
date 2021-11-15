@@ -1,22 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
 
-const StyledWrapper = styled.div`
-    border-style: solid;
-    width: var(--block-size);
-    height: var(--block-size);
-    border-width: var(--border-width);
-    border-left-color: var(--border-left-color);
-    border-top-color: var(--border-top-color);
-    border-right-color: var(--border-right-color);
-    border-bottom-color: var(--border-bottom-color);
+// Styling
+import "../sass/block.scss";
 
-    background-color: var(--block-color-${props => props.color});
-`;
-
+// Component Definition
 export default function Block({ colorIndex }) {
-    // Render
-    return (
-        <StyledWrapper color={colorIndex} />
-    );
+	// Render
+	return <div className={`block color-${colorIndex}`}></div>;
 }

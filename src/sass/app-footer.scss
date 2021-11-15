@@ -1,0 +1,12 @@
+.app-footer {
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+
+	.github {
+		margin-left: 10px;
+		text-decoration: none;
+		color: #212121;
+		font-weight: bold;
+	}
+}
