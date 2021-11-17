@@ -16,7 +16,7 @@ export default function PreviewField() {
 	// Render
 	return (
 		<div className="preview-field">
-			<h1>PREVIEW</h1>
+			<h1>Preview</h1>
 
 			<div className="preview">
 				{nextShape &&

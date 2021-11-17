@@ -1,4 +1,5 @@
 .app-body {
+	flex: 1;
 	display: flex;
 	justify-content: center;
 
@@ -7,9 +8,14 @@
 	}
 
 	.stats {
+		height: 502px;
 		margin-left: 20px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		border: 1px solid var(--wrapper-border-color);
+		border-radius: 3px;
+		padding: 5px 10px;
+		background: #eeeeee;
 	}
 }

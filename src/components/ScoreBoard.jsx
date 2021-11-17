@@ -12,7 +12,7 @@ export default function ScoreBoard() {
 	// Render
 	return (
 		<div className="scoreboard">
-			<h1>SCORE</h1>
+			<h1>Score</h1>
 			<h2>{score}</h2>
 		</div>
 	);

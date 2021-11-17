@@ -564,14 +564,17 @@ const TETROMINOES = {
 	],
 };
 
+const random = (max) => {
+	return Math.floor(Math.random() * max);
+};
+
 export const getEmptyTetromino = () => {
 	return EMPTY_TETROMINO;
 };
 
 export const getRandomTetromino = () => {
 	const tetrominoKeys = Object.keys(TETROMINOES);
-	const randomTetrominoKey =
-		tetrominoKeys[Math.floor(Math.random() * tetrominoKeys.length)];
+	const randomTetrominoKey = tetrominoKeys[random(tetrominoKeys.length)];
 	return TETROMINOES[randomTetrominoKey];
 };
 

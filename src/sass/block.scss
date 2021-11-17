@@ -1,17 +1,17 @@
 @use "variables";
+@use "colors";
 
 $blockBorderWidth: 5px;
-$blockBorderColor: rgba(255, 255, 255, 0.33) rgba(0, 0, 0, 0.15)
-	rgba(0, 0, 0, 0.5) rgba(255, 255, 255, 0.2);
-
-$blockWhite: #ffffff;
-$blockYellow: #f7d308;
-$blockCyan: #31c7ef;
-$blockMagenta: #ad4d9c;
-$blockGreen: #42b642;
-$blockRed: #ef2029;
-$blockBlue: #5a65ad;
-$blockOrange: #ef7921;
+$blockColors: (
+	0: colors.$blockWhite,
+	1: colors.$blockYellow,
+	2: colors.$blockCyan,
+	3: colors.$blockMagenta,
+	4: colors.$blockGreen,
+	5: colors.$blockRed,
+	6: colors.$blockBlue,
+	7: colors.$blockOrange,
+);
 
 .block {
 	width: variables.$blockSize;
@@ -19,37 +19,11 @@ $blockOrange: #ef7921;
 
 	border-width: $blockBorderWidth;
 	border-style: solid;
-	border-color: $blockBorderColor;
+	border-color: colors.$blockBorderColor;
 
-	&.color-0 {
-		background-color: $blockWhite;
-	}
-
-	&.color-1 {
-		background-color: $blockYellow;
-	}
-
-	&.color-2 {
-		background-color: $blockCyan;
-	}
-
-	&.color-3 {
-		background-color: $blockMagenta;
-	}
-
-	&.color-4 {
-		background-color: $blockGreen;
-	}
-
-	&.color-5 {
-		background-color: $blockRed;
-	}
-
-	&.color-6 {
-		background-color: $blockBlue;
-	}
-
-	&.color-7 {
-		background-color: $blockOrange;
+	@each $index, $blockColor in $blockColors {
+		&.color-#{$index} {
+			background-color: $blockColor;
+		}
 	}
 }

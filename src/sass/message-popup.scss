@@ -11,10 +11,12 @@
 
 	background-color: var(--message-popup-bg);
 
-	font-family: "Press Start 2P", cursive;
-	font-size: 10px;
-
 	&.show {
 		display: flex;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+		text-transform: uppercase;
 	}
 }

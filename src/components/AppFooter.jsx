@@ -11,9 +11,9 @@ export default function AppFooter() {
 	// Render
 	return (
 		<div className="app-footer">
-			<img src={GithubLogo} width="20px" alt="Github Logo" />
 			<a className="github" href="https://github.com/bilakispa/tetredux">
-				Github Repo
+				<img src={GithubLogo} width="20px" alt="Github Logo" />
+				<span>Github Repo</span>
 			</a>
 		</div>
 	);

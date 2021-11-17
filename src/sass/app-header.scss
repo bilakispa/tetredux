@@ -1,6 +1,5 @@
 .app-header {
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding: 20px 0;
 	text-align: center;
 
 	h1 {
@@ -8,10 +7,11 @@
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-weight: normal;
+		font-size: 1.2em;
 	}
 
 	i {
-		color: #a0a0a0;
+		color: #808080;
 	}
 }
