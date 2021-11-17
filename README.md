@@ -1,7 +1,7 @@
 # Tetredux
 A match-falling-blocks clone, created with react & redux
 
-![Screenshot_1](https://user-images.githubusercontent.com/4154032/135764072-22bca640-2196-4bcd-acf9-fd3ce3d66433.png)
+![Screenshot](https://user-images.githubusercontent.com/4154032/142243051-c2a9b7c9-92c2-415d-88b1-c922a53c322d.png)
 
 ### Packages used
 * redux / react-redux (state management)
