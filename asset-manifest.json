@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tetredux/static/css/main.ba126663.chunk.css",
-    "main.js": "/tetredux/static/js/main.18cccbb1.chunk.js",
-    "main.js.map": "/tetredux/static/js/main.18cccbb1.chunk.js.map",
-    "runtime-main.js": "/tetredux/static/js/runtime-main.0e6df153.js",
-    "runtime-main.js.map": "/tetredux/static/js/runtime-main.0e6df153.js.map",
-    "static/js/2.37826a03.chunk.js": "/tetredux/static/js/2.37826a03.chunk.js",
-    "static/js/2.37826a03.chunk.js.map": "/tetredux/static/js/2.37826a03.chunk.js.map",
+    "main.css": "/tetredux/static/css/main.6d90f456.chunk.css",
+    "main.js": "/tetredux/static/js/main.a4af6bd7.chunk.js",
+    "main.js.map": "/tetredux/static/js/main.a4af6bd7.chunk.js.map",
+    "runtime-main.js": "/tetredux/static/js/runtime-main.cd4587f6.js",
+    "runtime-main.js.map": "/tetredux/static/js/runtime-main.cd4587f6.js.map",
+    "static/js/2.dab3f4e3.chunk.js": "/tetredux/static/js/2.dab3f4e3.chunk.js",
+    "static/js/2.dab3f4e3.chunk.js.map": "/tetredux/static/js/2.dab3f4e3.chunk.js.map",
     "index.html": "/tetredux/index.html",
-    "static/css/main.ba126663.chunk.css.map": "/tetredux/static/css/main.ba126663.chunk.css.map",
-    "static/js/2.37826a03.chunk.js.LICENSE.txt": "/tetredux/static/js/2.37826a03.chunk.js.LICENSE.txt"
+    "static/css/main.6d90f456.chunk.css.map": "/tetredux/static/css/main.6d90f456.chunk.css.map",
+    "static/js/2.dab3f4e3.chunk.js.LICENSE.txt": "/tetredux/static/js/2.dab3f4e3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e6df153.js",
-    "static/js/2.37826a03.chunk.js",
-    "static/css/main.ba126663.chunk.css",
-    "static/js/main.18cccbb1.chunk.js"
+    "static/js/runtime-main.cd4587f6.js",
+    "static/js/2.dab3f4e3.chunk.js",
+    "static/css/main.6d90f456.chunk.css",
+    "static/js/main.a4af6bd7.chunk.js"
   ]
 }
